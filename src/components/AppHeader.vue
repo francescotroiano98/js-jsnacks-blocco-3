@@ -1,6 +1,13 @@
-<template lang="">
+<template>
     <div>
-        
+        <nav>
+            <ul>
+                <li>Ciao</li>
+                <li>Ciaone</li>
+                <li>Ciaissimo</li>
+                <li>CCCCCC</li>
+            </ul>
+        </nav>
     </div>
 </template>
 
@@ -9,6 +16,6 @@ export default {
     
 }
 </script>
-<style lang="">
+<style lang="scss">
     
 </style>
