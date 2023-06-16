@@ -2,7 +2,8 @@
     <div>
         <nav>
             <ul>
-                <li v-for="link in links">{{ link }}</li>
+                
+                <NavLink  v-for="link in links" :linkElements="link"/>
                 
             </ul>
         </nav>
@@ -10,6 +11,8 @@
 </template>
 
 <script>
+import NavLink from '../components/NavLink.vue'
+
 export default {
 
     name: 'AppHeader',
@@ -22,7 +25,10 @@ export default {
                 'ginetta',
                 'gina',
                 'ginettina'
-            ]
+            ],
+            components:  {
+                NavLink
+            }
 
         }
     }
